@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #efe4e4;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: rgb(249, 236, 236);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f5eded;
+    background-color: #333;
+    border-radius: 20px;
+
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex-grow: 1;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  li .buttons {
+    display: flex;
+  }
+  
+  li .buttons button {
+    margin-left: 10px;
+    background-color: #eee;
+    color: #333;
+  }
+  
+  li .buttons button:hover {
+    background-color: #ccc;
+  }
+  
+  #buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  #clear-btn {
+    background-color: #FF4136;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #clear-btn:hover {
+    background-color: #FF725C;
+  }
+  
+  #sort-btn {
+    background-color: #2ECC40;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #sort-btn:hover {
+    background-color:#2ECC40;
+  }
+  
